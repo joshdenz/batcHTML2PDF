@@ -1,0 +1,24 @@
+{
+  "name": "batchtml2pdf",
+  "version": "1.0.0",
+  "description": "converts a directory of html files to pdf",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "convert"
+  ],
+  "devDependencies": {
+    "electron": "^4.0.6"
+  },
+  "author": "Joshua Denzau",
+  "license": "MIT",
+  "dependencies": {
+    "hummus": "^1.0.95",
+    "pdf-merge": "^1.2.0"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../photon-0.1.2-dist/css/photon.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>batcHTML2PDF</title>
+  </head>
+  <body>
+    <div class="window">
+      <header class="toolbar toolbar-header">
+        <h1 class="title">batcHTML2PDF</h1>
+        <div id="title-bar-btns">
+          <button id="min-btn">-</button>
+          <button id="max-btn">+</button>
+          <button id="close-btn">x</button>
+        </div>
+      </header>
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane-sm sidebar">
+            <button id="select" class="btn btn-large btn-default">Select Folder</button>
+            <button id="convert" class="btn btn-large btn-positive">Convert</button>
+            <input type="text" name="newFileName" id="new-file-name" placeholder="New File Name" />
+          </div>
+          <div class="pane">
+            <table class="table-striped">
+              <thead>
+                <tr>
+                  <th>Files to be converted</th>
+                </tr>
+              </thead>
+              <tbody id="result"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <footer class="toolbar toolbar-footer">
+        <h1 class="title"></h1>
+      </footer>
+    </div>
+    <script type="text/javascript" src="./renderer.js"></script>
+  </body>
+</html>
