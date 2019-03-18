@@ -75,13 +75,11 @@ async function convert(dir, listOfFileNames) {
   );
 }
 
-// re-write the convert function to load the html into a single instance of headless chrome and execute several load/write steps.
-
-function mergeFiles(listOfFiles, dir, newFileName) {
+async function mergeFiles(listOfFiles, dir, newFileName) {
   let fullPaths = listOfFiles.map(file => {
     return path.join(dir, file);
   });
-  PDFMerge(fullPaths)
+  await PDFMerge(fullPaths)
     .then(buf => {
       fs.writeFile(path.join(dir, newFileName), buf, err => {
         if (err) console.log(err);
