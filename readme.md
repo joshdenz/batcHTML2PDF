@@ -29,6 +29,10 @@ The whole thing is a 3 step process.
 - enter a name for the merged file
 - click convert
 
+## Notes
+
+This is super rough, but it does what it needs to do. The whole thing is pretty bare bones, but I kind of like it that way.
+
 ## License
 
 Copyright 2019 Joshua Denzau
