@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "hummus": "^1.0.95",
-    "pdf-merge": "^1.2.0"
+    "pdf-merge": "^1.2.0",
+    "photonkit": "^0.1.2"
   }
 }
