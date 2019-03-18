@@ -1,6 +1,6 @@
 # batcHTML2PDF
 
-batcHTML2PDF is a utility for turning a pile of PDF and HTML files into a single merged PDF file. I had a use case for this at work.
+batcHTML2PDF is a utility for turning a pile of PDF and HTML files into a single merged PDF file. It is written using the Electron framework. I had a use case for this at work.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/5851874/54564502-54ef2880-49a2-11e9-9661-61e4d681b2eb.png"/>
